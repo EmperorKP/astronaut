@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png);
     width: 100vw;
     height: 100vh;
-    background-size:100% 100%;
+    background-size:100%;
+    background-repeat: no-repeat;
     overflow: hidden;
-
+    font-family: 'Poppins', sans-serif;
     
 }
 #a1{
@@ -35,7 +37,8 @@ form{
     position: absolute;
     top: 15%;
     left: 65%;
-    width: 450PX;
+    width: 340PX;
+    height: 500px;
     padding: 0 75PX;
     background-color: white;
     border-radius: 5px;
@@ -45,5 +48,5 @@ form{
 }
 label{
     font-size: 16px;
-    margin: 0px 0 40px;
+    margin: 20px 0 40px;
 }
