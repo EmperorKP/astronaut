@@ -36,17 +36,62 @@ body{
 form{
     position: absolute;
     top: 15%;
-    left: 65%;
-    width: 340PX;
-    height: 700px;
+    left: 56%;
+    width: 350PX;
+    /* height: 600px; */
     padding: 0 75PX;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 .block-display{
     display: block;
 }
+
 label{
     font-size: 16px;
-    margin: 20px 0 40px;
+    margin: 20px 0 4px 0;
+   
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+
+input[type="text"],
+input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    
+    margin: auto;
+    
+}
+
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #ec9203;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 40px auto;
+}
+
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    
+
 }
